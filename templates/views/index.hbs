@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+  {{>navbar}}
+    {{!-- <h1>Hey...This is sample website for  Home Page</h1> --}}
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-md-10 col-12 max-auto">
+       <h1 class="text-center main-heading">Home Page</h1>
+      <p class="text-center Sub-heading">Grow your Business with Us</p>"
+      
+      <div class="row">
+        <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+            <h1>WE WILL HELP YOU TO PROVIDE</h1>
+            <h1>REAL RUBY,BLUE SAPPHIRE,DIAMOND,PEARL STONES</h1>
+            <p>We are the <span class="bold-style">professional businessman</span> of real stones </p>
+        <button class="btn-style btn-primary">Read More </button>
+        </div>
+
+<div class="col-md-6 col-12 hero-text order-md-1 order-0">
+
+<figure>
+  <img src="images/r.jpg" alt="Ruby_Images">
+    {{!-- <img src="growth.png" alt="Ruby_Images"> --}}
+
+</figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      {{>about}}
+
+
+      {{>service}}
+
+      {{>contact}}
+
+         {{>maps}}
+        
+        
+    {{!-- <button class="btn btn-success">Contact</button> --}}
+    <script src="../node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+
+</body>
+</html>
